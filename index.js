@@ -3,8 +3,10 @@ const express = require('express');
 const expressLayouts = require("express-ejs-layouts");
 const flash = require("connect-flash");
 const session = require("express-session");
+const dotenv = require("dotenv");
 
 const app = express();
+
 
 // ---------- DB config ---------- //
 const db = require('./config/mongoose');
@@ -42,9 +44,9 @@ app.use( function (req, res, next ){
 
 app.use('/', require('./routes'));
 
-const port = process.env.port || 5000;
+const Port = 5000;
 
-app.listen(port, () => {
-    console.log(`Server listening on port ${port}`);
+app.listen(Port, () => {
+    console.log(`Server listening on port ${Port}`);
 });
 
