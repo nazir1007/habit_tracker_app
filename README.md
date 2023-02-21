@@ -26,6 +26,7 @@ Features :
 
 - ejs - v3.1.8
 - node - v16.14.2
+- dotenv - v16.0.3
 - connect-flash - v0.1.1
 - express - v4.18.2
 - express-ejs-layouts - v2.5.1
