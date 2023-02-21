@@ -1,7 +1,7 @@
-# habit_tracker_app
+# Habit_Tracker_App
 
 A Habit Tracker App are created using express, ejs and mongoDb. A user can register and login using email
-and create a new habit and can see in daily and weekly views and also track our habit.
+and create a new habit and can see in daily and weekly views and also track habit.
 
 Following features are implementd in the app which is given below : 
 
@@ -26,7 +26,6 @@ Features :
 
 - ejs - v3.1.8
 - node - v16.14.2
-- dotenv - v16.0.3
 - connect-flash - v0.1.1
 - express - v4.18.2
 - express-ejs-layouts - v2.5.1
